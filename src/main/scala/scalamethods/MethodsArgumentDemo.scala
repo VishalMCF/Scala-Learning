@@ -7,8 +7,8 @@ import scalamethods.enums.{CrustSize, CrustThickness}
 object MethodsArgumentDemo extends App {
 
   private class Pizza {
-    var crustSize = CrustSize.Medium
-    var crustType = CrustThickness.Medium
+    private var crustSize: enums.CrustSize.Value = CrustSize.Medium
+    private var crustType: enums.CrustThickness.Value = CrustThickness.Medium
 
     def updatePizza(crustSize: CrustSize = CrustSize.Large, crustType: CrustThickness = CrustThickness.SuperThick): Unit = {
       this.crustType = crustType
