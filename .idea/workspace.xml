@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a96a18b6-7c3b-431c-bc69-d87281709753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scalamethods/MethodDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scalamethods/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scalamethods/InheritedMethodsDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ControlStructures/ForLoops.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ControlStructures/ForLoops.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalamethods/MethodDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalamethods/MethodDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ForLoops.executor": "Run",
+    "Application.InheritedMethodsDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MethodDemo.executor": "Run",
     "Application.StringProcessing.executor": "Run",
@@ -57,7 +57,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "scala-methods",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -68,13 +68,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MethodDemo">
+  <component name="RunManager" selected="Application.InheritedMethodsDemo">
     <configuration name="ForLoops" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ControlStructures.ForLoops" />
       <module name="ScalaIntro" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ControlStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InheritedMethodsDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalamethods.InheritedMethodsDemo" />
+      <module name="ScalaIntro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalamethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritedMethodsDemo" />
         <item itemvalue="Application.MethodDemo" />
         <item itemvalue="Application.ForLoops" />
         <item itemvalue="Application.StringProcessing" />
@@ -157,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715158324063</updated>
-      <workItem from="1715158327435" duration="7428000" />
+      <workItem from="1715158327435" duration="11532000" />
     </task>
     <servers />
   </component>
